@@ -1,0 +1,43 @@
+* {
+    font-family: inherit;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+main,
+header {
+    margin-inline: 4em;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 3em;
+    margin-right: 2.5em;
+
+}
+
+
+nav {
+    border-bottom: 2px solid black;
+    margin-top: 2.5em;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    margin: 1em;
+
+}
+
+p {
+    line-height: 1.4em;
+    font-size: 14px;
+}
+
+h2 {
+    font-weight: 500;
+
+    font-size: 2em;
+}
