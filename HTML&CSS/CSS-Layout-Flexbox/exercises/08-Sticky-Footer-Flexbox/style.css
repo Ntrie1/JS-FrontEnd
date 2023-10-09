@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
+
+header{
+    border-bottom: 3px solid black;
+    height: fit-content;
+    padding: 1em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+
+}
+
+h2{
+    font-weight: normal;
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+p{
+    padding-bottom: 1.5em;
+}
+
+main{
+    margin: 2em;
+    height: 100%;
+}
+
+footer{
+    flex: 1;
+    padding-top: 1.5em;
+    padding-left: 1em;
+}
