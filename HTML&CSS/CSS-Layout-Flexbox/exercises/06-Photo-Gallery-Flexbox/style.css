@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    background-color: #ddd;
+    justify-content: center;
+    
+}
+
+.gallery{
+    display: flex;
+    max-width: 70em;
+}
+
+.gallery ul{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 2em;
+    margin: 5rem auto;
+}
+
+.gallery li{
+    flex-basis: 1 1 200px;
+    list-style: none;
+    display: flex;
+    background-color: #fff;
+    border: 7px solid black;
+    align-items: center;
+    padding: 2em 1em ;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.gallery img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
