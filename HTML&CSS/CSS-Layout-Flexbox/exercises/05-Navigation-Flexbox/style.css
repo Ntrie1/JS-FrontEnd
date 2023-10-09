@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body{
+    padding: 5em;
+}
+
+header{
+    display: flex;
+    border-bottom: 3px solid black;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    justify-content: space-between;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+h2{
+    font-weight: normal;
+}
+
+/* nav{
+    margin-left: auto;
+} */
+nav ul{
+    display: flex;
+    gap: 2em;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+nav li{
+    list-style: none;
+}
+
+p{
+    margin-top: 1.5em;
+}
