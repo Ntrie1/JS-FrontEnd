@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    /* padding: 3em 5em; */
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+li{
+    list-style-type: square;
+}
+
+ul{
+    padding: 0.5em 0 2em 2em;
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+blockquote,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h6{
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+header {
+    border-bottom: 3px solid black;
+    padding-bottom: 2em;
+    width: 100%;
+}
+
+img {
+    background-color: white;
+    padding: 0.5em;
+    border: 4px solid black;
+    box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.2) ;
+    
+    
+}
+
+blockquote{
+    float: right;
+    max-width: 50%;
+    border-left: 3px solid grey ;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    font-style: italic;
+    font-family: Georgia, serif;
+    color: grey;
+}
+blockquote span{
+    display: block;
+    margin-top: 3.3em;
+    float: right;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    width: 80em;
+    margin: 4em auto;
+    gap: 4em;
+
+}
+
+.page>main {
+    flex: 1 1 65%;
+}
+
+.page>aside {
+    flex: 1 1 25%;
+}
+
+.align-rigth{
+    display: block;
+    float: right;
+    height: 100%;
+    width: auto;
+    margin: 0 0 1em 1em;
+}
+
+.align-left{
+    display: block;
+    float: left;
+    height: 100%;
+    width: auto;
+    margin: 1em 1em 1em 0;
+}
+
