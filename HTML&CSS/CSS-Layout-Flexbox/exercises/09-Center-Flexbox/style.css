@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(238, 238, 238);
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    padding-bottom: 0.3em;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 23em;
+    padding: 1em;
+    padding-bottom: 2em;
+    border-radius: 4px;
+    box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.2);
+}
