@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fefcfc;
+}
+
+main{
+    padding: 0 8em;
+}
+
+header {
+    color: purple;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  
+  h3{
+    flex: 1 1 100%;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  h3::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 5%; 
+    padding-top: 0.5em; 
+    border-bottom: 3px solid black;
+  }
+
+  .subtitle {
+    font-size: 0.8em;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: black;
+    font-weight: 600;
+  }
+
+  .banner{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40em;
+    margin: 5em auto;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .banner h2{
+    flex: 1 1 100%;
+    padding-bottom: 1em;
+  }
+  .banner p{
+    padding-right: 10em;
+    padding-bottom: 1em;
+    line-height: 1.5em;
+  }
+
+  .banner button{
+    padding: 0.5em 1em;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  .world-icon{
+    position: absolute;
+    top: -1.2em;
+    right: 0;
+  }
+  
+  .world-icon i {
+    font-size: 10em;
+  }
+
+
+  .team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50em;
+    margin: 2em auto;
+    gap: 2em;
+  }
+
+  .team-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    width: 15em;
+    margin-bottom: 2em;
+  }
+
+ .team-card img{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    flex: 1 1 100%;
+    box-shadow: inset 3px 3px 100px rgba(255, 0, 0, 0.5);
+ }
+ 
+
+ .team-card p{
+    margin-top: 1em;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+ }
+
+ .sign-up-banner{
+    height: 10em;
+    background-color: purple;
+    margin-bottom: 3em;
+ }
+
+ .sign-up-banner p{
+    text-align: center;
+    color: #ffff;
+    font-size: 2em;
+    padding-top: 0.5em;
+ }
+
+ .sign-up-banner p::after{
+    content: "";
+    display: block;
+    margin: auto;
+    width: 5%; 
+    padding-top: 0.5em; 
+    border-bottom: 3px solid black;
+ }
+
+ .signup-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em; 
+ }
+
+.signup-field input[type="email"] {
+    flex: 1;
+    padding: 0.5em;
+}
+
+.signup-field button {
+    padding: 0.5em 1em;
+    margin-left: 0.5em;
+    background-color: #ffff;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 5em;
+    border-top: 2px solid black;
+    line-height: 1.5em;
+}
+
+footer section{
+    padding-top: 2em;
+    width: 15em;
+}
+footer p, ul{
+    padding-top: 1em;
+}
+
+footer .sitemap li{
+    display: block;
+    margin-right: 3em;
+    height: 1em;
+}
+
+footer .sitemap ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer i{
+    padding-right: 1em;
+}
