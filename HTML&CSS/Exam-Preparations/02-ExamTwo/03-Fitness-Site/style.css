@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+html {
+    font: 12px/1.5 'PT Sans', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-image: url(image/fitness-main.jpg);
+    background-size: contain;
+    background-position: center -200px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-top-bar {
+    background-color: #d01919;
+    color: #fff;
+}
+
+.section-top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.section-top-bar .socials {
+    display: flex;
+}
+
+.section-top-bar .socials li,
+.section-top-bar .socials a {
+    display: block;
+}
+
+.section-top-bar .socials li {
+    padding: 0 0.5em;
+}
+
+.section-top-bar .socials a span {
+    display: none;
+}
+
+.section-top-bar a {
+    color: #fff;
+}
+
+.section-site-header {
+    color: #fff;
+}
+
+.section-site-header .container,
+.section-top-bar .container {
+    max-width: initial;
+}
+
+.section-site-header .container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+.section-site-header a {
+    color: #fff;
+}
+
+.section-site-header .site-title {
+    display: none;
+}
+
+.section-coaches {
+    background-color: #EFEFEF;
+}
+
+.section-site-footer {
+    background-color: #d01919;
+    color: #fff;
+}
+
+.section-site-footer p {
+    text-align: center;
+    padding: 1em;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 0.5em;
+}
+
+.main-nav li,
+.main-nav a {
+    display: block;
+    text-decoration: none;
+}
+
+.main-nav a {
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.section-hero-banner {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.section-hero-banner a {
+    color: #fff;
+}
+
+.section-hero-banner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 2em;
+    height: 20em;
+    justify-content: center;
+}
+
+.section-hero-banner .container p {
+    text-align: center;
+    max-width: 53ch;
+    margin: 1em 0;
+}
+
+.section-hero-banner .container a {
+    display: block;
+    background-color: #d01919;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+}
+
+.section-hero-banner h2 {
+    font-size: 3em;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+}
+
+.section-columns {
+    padding: 2em;
+}
+
+.section-columns .section-header {
+    text-align: center;
+}
+
+.section-columns .section-content {
+    display: flex;
+    gap: 2em;
+}
+
+.section-columns .section-content article {
+    flex: 1 1 30%;
+    text-align: center;
+    padding: 0 4em;
+}
+
+.section-columns h3 {
+    font-size: 1.3em;
+    margin-bottom: 1.4em;
+}
+
+.section-columns h3::after {
+    display: block;
+    content: '';
+    margin: 1em auto;
+    width: 5ch;
+    height: 2px;
+    background-color: #d01919;
+}
+
+.section-features {
+    background-color: #fff;
+    padding-bottom: 2em;
+}
+
+.section-features .container {
+    padding: 0 4em;
+}
+
+.section-features img {
+    width: 15%;
+    margin: 0 auto;
+}
+
+.section-features h4 {
+    color: #d01919;
+    margin-top: 1em;
+}
+
+.section-coaches {
+    padding-bottom: 1em;
+}
+
+.section-coaches h5 {
+    color: #d01919;
+}
+
+.section-coaches p {
+    color: #A6A1A5;
+    padding: 0 1em;
+    margin-top: 1em;
+}
+
+.section-coaches .media {
+    overflow: hidden;
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+}
