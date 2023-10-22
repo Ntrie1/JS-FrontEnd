@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+    .navigation-nav,
+    .home-text,
+    .home-image-container{
+        display: none;
+    }
+
+    .button-secondary{
+        margin-bottom: 1em;
+    }
+
+    .home-tab-selector-cards-container{
+        display: block;
+    }
+
+    .portofolio-card-speaker-card{
+        margin-bottom: 2em;
+    }
+    .section-container {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .home-text10{
+        margin-right: 40px;
+    }
+
+    .home-top-part,
+    .home-links-container{
+        flex-direction: column;
+    }
+
+    .home-links-container{
+        gap: 2em;
+    }
+
+    .home-subscribe-container{
+        width: 100%;
+    }
+
+    .button-primary{
+        padding: 1.5em;
+    }
+}
