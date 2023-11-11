@@ -1,21 +1,20 @@
-import Footer from './components/Footer';
-import Header from './components/Header';
-import UserList from './components/UserList';
-import './styles.css';
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import UserList from "./components/UserList"
 
 function App() {
 
-    return (
-        <div>
-            <Header />
+  return (
+    <>
+      <Header />
 
-            <main className="main">
-                <UserList />
-            </main>
-
-            <Footer />
-        </div>
-    );
+      <main className="main">
+        <UserList />
+      </main>
+      
+      <Footer />
+    </>
+  )
 }
 
 export default App
