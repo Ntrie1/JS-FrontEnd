@@ -1,0 +1,14 @@
+.ageError{
+    color: red;
+    font-size: 40px;
+} 
+
+.inputField {
+    border-color: red;
+
+}
+
+.usernameError{
+    color: red;
+    font-weight: 600;
+}
