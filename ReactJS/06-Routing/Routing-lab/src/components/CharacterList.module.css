@@ -1,0 +1,17 @@
+.charactersUl{
+    margin: 0 auto;
+    color: red;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.name{
+    color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    max-width: 10em;
+}
